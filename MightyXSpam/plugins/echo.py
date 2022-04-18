@@ -6,9 +6,9 @@ import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from MightyXSpam import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, SUDO_USERS, OWNER_ID
+from LegendXSpam import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, SUDO_USERS, OWNER_ID
 
-from MightyXSpam import CMD_HNDLR as hl
+from LegendXSpam import CMD_HNDLR as hl
 from MightyXSpam.sql.echo_sql import addecho, get_all_echos, is_echo, remove_echo
 from resources.data import MightyX
 
