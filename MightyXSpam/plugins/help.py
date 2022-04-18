@@ -7,7 +7,7 @@ from MightyXSpam import CMD_HNDLR as hl
     
 HELP_PIC = "https://telegra.ph/file/38eae16b57a0c2d039423.jpg"
 
-Mig_Help = "★ 𝙈𝙞𝙜𝙝𝙩𝙮𝙓𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
+Mig_Help = "★ LegendXSpam 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩"
 
 
 @Mig.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -34,10 +34,10 @@ async def help(event):
             Button.inline("⚡ Extra ⚡", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates")
+            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/LegendXUpdates")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/LegendXSupport")
            ],
            ],
            )              
@@ -125,7 +125,7 @@ Command :
 Command :
 1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @MightyXSpam**
+** © @LegendXSpam**
 """                     
            
            
@@ -152,16 +152,16 @@ async def helpback(event):
             Button.inline("⚡ Extra ⚡", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates")
+            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/LegendXUpdates")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/LegendXSupport")
            ],
            ],
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Legend X Spam Bots !! @LegendXSpam If you don't know how to do it then contact @N8_FIGHTERS_OP"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -189,7 +189,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Legend X Spam Bots !! @LegendXSpam If you don't know how to do it then contact @N8_FIGHTERS_OP"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -244,6 +244,6 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Legend X Spam Bots !! @LegendXSpam If you don't know how to do it then contact @N8_FIGHTERS_OP"
             )
         await event.answer(Alert, cache_time=0, alert=True)
